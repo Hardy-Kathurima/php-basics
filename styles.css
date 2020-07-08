@@ -1,0 +1,228 @@
+body {
+  background-color: darkgray;
+}
+
+.banner::after {
+  background-color: black;
+  content: "";
+  height: 100%;
+  width: 100%;
+  left: 0;
+  top: 0;
+  opacity: 0.4;
+  position: absolute;
+  z-index: 0;
+}
+
+.banner {
+  position: relative;
+}
+
+.banner > * {
+  position: relative;
+  z-index: 100;
+  color: orange;
+}
+
+.banner {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 10px;
+  min-height: 300px;
+  width: 100%;
+  text-align: center;
+  background-image: url("images/steak-meat-raw-herbs-65175.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.highlight {
+  display: flex;
+  align-items: flex-start;
+  justify-content: start;
+}
+
+.highlight h1 {
+  font-size: 40px;
+  font-weight: 1000;
+}
+
+.author ul {
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+  justify-content: start;
+}
+
+.author ul li {
+  display: inline-block;
+  font-weight: lighter;
+  padding-right: 5px;
+}
+
+.author img {
+  height: 40px;
+  width: 40px;
+  border: 2px solid white;
+  border-radius: 50%;
+}
+
+.main-content {
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.writer img {
+  height: 40px;
+  width: 40px;
+  border: 2px solid white;
+  border-radius: 50%;
+}
+
+.writer {
+  padding: 20px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  background-color: rgb(247, 239, 239);
+}
+
+.ul-a ul {
+  padding: 10px;
+}
+
+.ul-a ul {
+  list-style-type: none;
+}
+
+.ul-a ul li {
+  display: inline-block;
+}
+
+.ul-b ul li {
+  padding: 5px;
+}
+
+.card {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.form-body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  margin: 0 auto;
+  max-width: 400px;
+}
+
+.each-comment {
+  border: 2px solid black;
+  font-weight: bold;
+  margin-right: 10px;
+  padding: 20px;
+}
+
+.each-comment ul li {
+  display: inline-block;
+}
+
+.each-comment img {
+  height: 40px;
+  width: 40px;
+  border: 1px solid green;
+  border-radius: 50%;
+}
+
+.comment-area {
+  cursor: pointer;
+}
+
+.box {
+  display: none;
+  transform: rotate(-30deg);
+  height: 40px;
+  width: 40px;
+  background-color: red;
+  font-size: 20px;
+  color: white;
+  border: 2px solid transparent;
+  border-radius: 5px;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
+  padding: 15px;
+  position: fixed;
+  filter: drop-shadow(0 2px 6px black);
+  text-align: center;
+  line-height: 20px;
+}
+
+.box {
+  transition: 1s;
+}
+
+.box:hover {
+  background-color: deeppink;
+  transform: rotate(0deg);
+  cursor: pointer;
+}
+
+.box {
+  transition: 1s;
+}
+
+.box:hover {
+  background-color: deeppink;
+  transform: rotate(0deg);
+  cursor: pointer;
+}
+
+.error {
+  color: red;
+}
+
+.jumbotron {
+  text-align: center;
+}
+
+.jumbotron h1 {
+  font-size: 2rem;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.jumbotron p {
+  font-size: 1rem;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.about {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 100px;
+}
+.contact {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 100px;
+}
+
+.contact-flex {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.contact-flex i {
+  font-size: 32px;
+}
+
+footer {
+  padding: 20px;
+  background-color: black;
+  color: white;
+  text-align: center;
+}
